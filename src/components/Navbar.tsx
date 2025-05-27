@@ -9,11 +9,11 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="fixed w-full">
+    <div className="fixed w-full z-50 bg-white">
       {" "}
-      <div className="container mx-auto bg-white p-4">
+      <div className="container mx-auto p-4">
         {/* md size */}
-        <div className="hidden md:flex justify-between items-center  text-xl  z-20">
+        <div className="hidden md:flex justify-between items-center  text-xl">
           {/* <h1 className="text-2xl font-semibold">Malon Learning Hub</h1> */}
           <div>
             <img src="malon-space.png" alt="logo" className="w-30" />
@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
 
         {/* sm size  */}
-        <div className="md:hidden flex justify-between items-center text-xl z-20">
+        <div className="md:hidden flex justify-between items-center text-xl">
           {/* <h1 className="text-2xl">Malon Learning Hub</h1> */}
           <div>
             <img src="malon-space.png" alt="logo" className="w-32" />
