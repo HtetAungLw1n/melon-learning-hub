@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.active {
+  font-weight: 500;
+}
+
+@theme {
+  --default-font-family: "PT Serif", serif;
+  --color-avocado: #4a7a6b;
+  /* ... */
+}
