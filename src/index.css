@@ -3,6 +3,13 @@
 .active {
   font-weight: 500;
 }
+.courses.active {
+  font-weight: 500;
+  border-color: #4a7a6b;
+  color: black;
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 1px;
+}
 
 /* Hide scrollbar  */
 ::-webkit-scrollbar {

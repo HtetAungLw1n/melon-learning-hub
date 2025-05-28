@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className="border p-2 rounded-lg cursor-pointer">
               <Search />
             </div>
-            <button className="bg-gray-800 hover:bg-avocado text-white px-4 py-2 rounded-md cursor-pointer duration-150 ease-in-out transition">
+            <button className="bg-neutral-800 hover:bg-avocado text-white px-4 py-2 rounded-md cursor-pointer duration-150 ease-in-out transition">
               Sign In +
             </button>
           </div>

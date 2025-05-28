@@ -1,3 +1,4 @@
+import Courses from "../components/Courses";
 import Explore from "../components/Explore";
 import HeroSection from "../components/HeroSection";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <HeroSection />
       <Explore />
+      <Courses />
     </>
   );
 };

@@ -7,9 +7,11 @@ import photo4 from "../assets/images/photo4.jpg";
 
 const Explore = () => {
   return (
-    <section className="container mx-auto p-4 py-8">
+    <section className="container mx-auto p-4 pt-12">
       <div className="flex items-center justify-between">
-        <div className="text-2xl md:text-3xl font-pt-serif">Explore</div>
+        <div className="text-2xl md:text-3xl lg:text-4xl font-pt-serif">
+          Explore
+        </div>
 
         <Link
           to={""}
@@ -19,7 +21,7 @@ const Explore = () => {
         </Link>
       </div>
 
-      <div className="grid grid-cols-2  lg:grid-cols-3 gap-4 py-8">
+      <div className="grid grid-cols-2  lg:grid-cols-3 gap-4 pt-8">
         <ExploreCard
           span={"col-span-2"}
           text={"EcoLiving 101: Sustainable Habits for Everyday Life"}
