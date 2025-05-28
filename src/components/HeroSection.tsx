@@ -12,10 +12,10 @@ const HeroSection = () => {
           className="h-full w-full object-cover brightness-70 opacity-90"
         />
       </div>
-      <div className="z-10 text-white text-3xl md:text-4xl text-center px-20 ">
+      <div className="z-10 text-white text-3xl md:text-4xl text-center px-20 lg:text-4xl ">
         <div className="font-pt-serif">
           <div>
-            Start you journay <span className="text-avocado">today.</span>
+            Start your journay <span className="text-avocado">today.</span>
           </div>
           <div>
             Be a part of{" "}

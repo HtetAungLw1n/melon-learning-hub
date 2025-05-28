@@ -16,7 +16,7 @@ const TopNavbar = ({
   return (
     <div
       onClick={handleSetIsOpen}
-      className={`bg-gray-200 h-screen w-full absolute left-0 top-20 cursor-pointer ${display}`}
+      className={`bg-black/50 h-screen w-full absolute left-0 top-20 cursor-pointer ${display}`}
     >
       <div
         onClick={handleNavClick}

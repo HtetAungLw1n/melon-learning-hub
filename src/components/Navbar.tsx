@@ -1,6 +1,6 @@
 import { AlignJustify, Search } from "lucide-react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import TopNavbar from "./TopNavbar";
 
 const Navbar = () => {
@@ -14,10 +14,13 @@ const Navbar = () => {
       <div className="container mx-auto p-4">
         {/* md size */}
         <div className="hidden md:flex justify-between items-center  text-xl">
-          {/* <h1 className="text-2xl font-semibold">Malon Learning Hub</h1> */}
-          <div>
-            <img src="malon-space.png" alt="logo" className="w-30" />
-          </div>
+          <Link to={"/"}>
+            <img
+              src="malon-space.png"
+              alt="logo"
+              className="w-30 cursor-pointer"
+            />
+          </Link>
 
           <div className="flex gap-8">
             <NavLink to={"/"}>Home</NavLink>
@@ -26,10 +29,10 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="border p-2 rounded-lg">
+            <div className="border p-2 rounded-lg cursor-pointer">
               <Search />
             </div>
-            <button className="bg-gray-800 hover:bg-avocado text-white px-4 py-2 rounded-md">
+            <button className="bg-gray-800 hover:bg-avocado text-white px-4 py-2 rounded-md cursor-pointer duration-150 ease-in-out transition">
               Sign In +
             </button>
           </div>
@@ -37,10 +40,13 @@ const Navbar = () => {
 
         {/* sm size  */}
         <div className="md:hidden flex justify-between items-center text-xl">
-          {/* <h1 className="text-2xl">Malon Learning Hub</h1> */}
-          <div>
-            <img src="malon-space.png" alt="logo" className="w-32" />
-          </div>
+          <Link to={"/"}>
+            <img
+              src="malon-space.png"
+              alt="logo"
+              className="w-32 cursor-pointer"
+            />
+          </Link>
           <div>
             <AlignJustify
               onClick={handleSetIsOpen}

@@ -1,4 +1,5 @@
 import { TagIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 type ExploreCardProps = {
   span: string;
@@ -18,7 +19,8 @@ const ExploreCard = ({
   image,
 }: ExploreCardProps) => {
   return (
-    <div
+    <Link
+      to={""}
       className={`relative h-64 md:h-72 rounded-lg overflow-hidden ${span} text-white`}
     >
       <img
@@ -39,7 +41,7 @@ const ExploreCard = ({
           {text}
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
