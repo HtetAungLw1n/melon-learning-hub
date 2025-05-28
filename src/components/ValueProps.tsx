@@ -13,7 +13,7 @@ const ValueProps = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="flex flex-col text-white justify-center items-center font-pt-serif gap-2 relative z-10">
+      <div className="flex flex-col text-white justify-center items-center font-pt-serif gap-2 relative z-10 md:pl-20">
         <div className="bg-white text-black rounded-full w-18 h-18 flex justify-center items-center">
           <BookOpen size={28} />
         </div>
@@ -35,7 +35,7 @@ const ValueProps = () => {
         <div className="text-lg">Career Growth</div>
       </div>
 
-      <div className="relative h-96 md:h-80  md:w-96 overflow-hidden z-10">
+      <div className="relative h-96 md:h-96  md:w-96 overflow-hidden z-10">
         <img
           src={svg}
           alt="svg"

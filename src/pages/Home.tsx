@@ -2,6 +2,7 @@ import Courses from "../components/Courses";
 import Explore from "../components/Explore";
 import HeroSection from "../components/HeroSection";
 import ValueProps from "../components/ValueProps";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Explore />
       <Courses />
       <ValueProps />
+      <WhyChooseUs />
     </>
   );
 };

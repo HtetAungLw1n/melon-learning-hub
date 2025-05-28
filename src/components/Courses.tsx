@@ -1,9 +1,9 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import course1 from "../assets/images/course1.jpg";
 import course2 from "../assets/images/course2.jpg";
 import course3 from "../assets/images/course3.jpg";
 import CoursesCard from "./CoursesCard";
-import { Plus } from "lucide-react";
+import Button from "./Button";
 
 const Courses = () => {
   return (
@@ -61,14 +61,7 @@ const Courses = () => {
         />
       </div>
 
-      <div className="flex items-center justify-center my-8">
-        <Link
-          to={"/courses"}
-          className="bg-neutral-800 hover:bg-avocado text-white flex items-center text-lg md:text-xl p-4 rounded-md cursor-pointer duration-150 ease-in-out transition gap-2"
-        >
-          View All Course <Plus />
-        </Link>
-      </div>
+      <Button text="View All Course" link="/courses" customcss="" />
     </section>
   );
 };
