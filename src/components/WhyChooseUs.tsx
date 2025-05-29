@@ -4,7 +4,7 @@ import type { LucideIcon } from "lucide-react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="container mx-auto p-4 py-10 md:py-12 lg:flex">
+    <div className="container mx-auto p-4 py-10 md:py-16 lg:flex">
       {/* left  */}
       <div className="lg:w-1/3">
         <div className="text-3xl lg:text-4xl font-pt-serif">

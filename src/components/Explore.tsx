@@ -7,11 +7,9 @@ import photo4 from "../assets/images/photo4.jpg";
 
 const Explore = () => {
   return (
-    <section className="container mx-auto p-4 pt-12">
+    <section className="container mx-auto p-4 py-16">
       <div className="flex items-center justify-between">
-        <div className="text-2xl md:text-3xl lg:text-4xl font-pt-serif">
-          🌱 Explore
-        </div>
+        <div className="text-3xl lg:text-4xl font-pt-serif">🌱 Explore</div>
 
         <Link
           to={""}

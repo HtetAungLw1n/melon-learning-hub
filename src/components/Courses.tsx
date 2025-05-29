@@ -7,11 +7,9 @@ import Button from "./Button";
 
 const Courses = () => {
   return (
-    <section className="container mx-auto p-4 pt-12">
+    <section className="container mx-auto p-4 py-16">
       <div className="flex items-center justify-between">
-        <div className="text-2xl md:text-3xl lg:text-4xl font-pt-serif">
-          🌱 Courses
-        </div>
+        <div className="text-3xl  lg:text-4xl font-pt-serif">🌱 Courses</div>
 
         <div className="flex gap-2">
           <NavLink

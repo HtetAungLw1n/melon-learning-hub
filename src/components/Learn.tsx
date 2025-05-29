@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Learn = () => {
   return (
-    <section className="bg-neutral-800  px-4 py-12 text-white">
+    <section className="bg-neutral-800  px-4 py-16 text-white">
       <div className="container mx-auto flex flex-col gap-4 md:flex-row md:justify-between md:items-start lg:h-[40vh]">
         <div className="w-full md:w-1/2 lg:w-[40%] h-full rounded-lg overflow-hidden">
           <img src={img} alt="img" className="w-full h-full object-cover" />
