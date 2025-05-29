@@ -23,8 +23,8 @@ const TopNavbar = ({
         className={`absolute left-0 bg-white w-full flex flex-col p-4 text-xl space-y-2 ${display}`}
       >
         <NavLink to={"/"}>Home</NavLink>
-        <NavLink to={"courses"}>Courses</NavLink>
-        <NavLink to={"about"}>About Us</NavLink>
+        <NavLink to={"/courses"}>Courses</NavLink>
+        <NavLink to={"/about-us"}>About Us</NavLink>
       </div>
     </div>
   );
