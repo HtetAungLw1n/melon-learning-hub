@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="hidden md:flex justify-between items-center  text-xl">
           <Link to={"/"}>
             <img
-              src="malon-space.png"
+              src="melon-space.png"
               alt="logo"
               className="w-30 cursor-pointer"
             />
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="md:hidden flex justify-between items-center text-xl">
           <Link to={"/"}>
             <img
-              src="malon-space.png"
+              src="melon-space.png"
               alt="logo"
               className="w-32 cursor-pointer"
             />

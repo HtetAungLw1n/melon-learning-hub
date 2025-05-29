@@ -1,5 +1,6 @@
 import Courses from "../components/Courses";
 import Explore from "../components/Explore";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import Learn from "../components/Learn";
 import Testimonial from "../components/Testimonial";
@@ -16,6 +17,7 @@ const Home = () => {
       <WhyChooseUs />
       <Learn />
       <Testimonial />
+      <Footer />
     </>
   );
 };

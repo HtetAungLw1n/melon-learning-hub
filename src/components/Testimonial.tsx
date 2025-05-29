@@ -20,7 +20,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row md:justify-between gap-4 mt-10">
+      <div className="flex flex-col lg:flex-row lg:justify-between gap-4 mt-10">
         <TestimonialCard
           img={pfp1}
           name="Nay Lin Aung"
