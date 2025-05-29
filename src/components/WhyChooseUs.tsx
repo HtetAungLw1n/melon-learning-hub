@@ -4,10 +4,12 @@ import type { LucideIcon } from "lucide-react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="container mx-auto p-4 pt-12 md:flex">
+    <div className="container mx-auto p-4 py-10 md:py-12 lg:flex">
       {/* left  */}
       <div className="lg:w-1/3">
-        <div className="text-3xl lg:text-4xl font-pt-serif">Why Choose Us?</div>
+        <div className="text-3xl lg:text-4xl font-pt-serif">
+          🌱 Why Choose Us?
+        </div>
         <div className="mt-4 md:pr-8 md:text-lg">
           At <span className="font-semibold">Melon Space</span>, we offer
           practical, expert-led courses designed to help yyou integrate
@@ -25,7 +27,7 @@ const WhyChooseUs = () => {
         />
       </div>
       {/* right  */}
-      <div className="hidden lg:grid lg:w-2/3 lg:grid-cols-2 gap-4">
+      <div className="pt-8 lg:pt-0 grid grid-cols-1 lg:w-2/3 lg:grid-cols-2 gap-4">
         <WhyChooseUsCard
           title="Hands-On Learning"
           text="Real-World applications for immedeiate impact"
@@ -64,7 +66,7 @@ export const WhyChooseUsCard = ({
 }) => {
   return (
     <>
-      <div className="flex flex-col pl-8 py-4 text-white justify- items-start  gap-2 relative bg-neutral-800 rounded-lg ">
+      <div className="flex flex-col pl-8 p-4 text-white justify- items-start  gap-2 relative bg-neutral-800 rounded-lg ">
         <div className="bg-white text-black rounded-full w-18 h-18 flex justify-center items-center">
           <Icon size={20} />
         </div>

@@ -10,7 +10,7 @@ const Courses = () => {
     <section className="container mx-auto p-4 pt-12">
       <div className="flex items-center justify-between">
         <div className="text-2xl md:text-3xl lg:text-4xl font-pt-serif">
-          Courses
+          🌱 Courses
         </div>
 
         <div className="flex gap-2">
